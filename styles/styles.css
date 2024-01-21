@@ -113,7 +113,7 @@ h2 {
     width              : 36%;
     height             : auto;
     z-index            : 100;
-    background-color   : white;
+    background-color   : #EDEDED;
     position           : absolute;
     top                : 50%;
     left               : 50%;
@@ -121,7 +121,7 @@ h2 {
     margin-top         : 100px;
     padding-top        : 1rem;
     padding-bottom     : 4rem;
-    border             : 3px solid #D9D9D9;
+    /* border             : 3px solid #D9D9D9; */
     border-radius      : 4px;
     /* border-width    : 7px; */
     font-family        : "Inter", Arial, Helvetica, sans-serif;
@@ -162,9 +162,29 @@ textarea {
     height          : 150px;
     padding         : 12px 20px;
     box-sizing      : border-box;
-    border          : 2px solid #ccc;
+    border          : 2px solid white;
     border-radius   : 4px;
-    background-color: #EDEDED;
+    background-color: white;
     font-size       : 16px;
     resize          : none;
+}
+
+.popup-cancel-button {
+    background-color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.popup-submit-button {
+    background-color: #177FF5;
+    border-radius: 4px;
+    border-color: #177FF5;
+    color: white;
+    font-size: 20px;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
